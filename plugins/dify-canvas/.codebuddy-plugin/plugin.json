@@ -1,0 +1,17 @@
+{
+  "name": "dify-canvas",
+  "version": "0.1.0",
+  "description": "通过本机已登录的 Chrome 读取、修改、发布并试运行 Dify 工作流画布草稿。写回默认先给 diff，带备份与自检，发布需单独确认。",
+  "description_en": "Read, patch, publish and test-run Dify workflow canvas drafts through the user's signed-in Chrome. Patches are dry-run by default with backup and self-check; publishing needs separate confirmation.",
+  "author": {
+    "name": "elegant01",
+    "url": "https://github.com/elegant01"
+  },
+  "homepage": "https://github.com/elegant01/dify-canvas-mcp",
+  "repository": "https://github.com/elegant01/dify-canvas-mcp.git",
+  "license": "MIT",
+  "category": "development",
+  "keywords": ["dify", "workflow", "canvas", "mcp", "browser"],
+  "skills": ["./skills/dify-canvas/SKILL.md"],
+  "mcpServers": "./.mcp.json"
+}

@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "dify-canvas": {
+      "command": "npx",
+      "args": ["-y", "dify-canvas-mcp"],
+      "env": {}
+    }
+  }
+}

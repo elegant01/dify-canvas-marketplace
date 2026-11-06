@@ -1,0 +1,17 @@
+{
+  "name": "dify-canvas-marketplace",
+  "description": "Dify 工作流画布插件市场：读取、修改、发布并试运行草稿",
+  "owner": {
+    "name": "elegant01",
+    "url": "https://github.com/elegant01"
+  },
+  "plugins": [
+    {
+      "name": "dify-canvas",
+      "description": "通过本机已登录的 Chrome 读取、修改、发布并试运行 Dify 工作流画布草稿。可改节点的提示词、代码、变量与连线坐标，可发布草稿，可试跑一轮定位分支问题。",
+      "description_en": "Read, patch, publish and test-run Dify workflow canvas drafts through the user's signed-in Chrome.",
+      "version": "0.1.0",
+      "source": "./plugins/dify-canvas"
+    }
+  ]
+}
