@@ -4,24 +4,34 @@ CodeBuddy / WorkBuddy 插件市场源（Git 仓库形态），内含一个插件
 
 ## 安装
 
-在 CLI 里添加本仓库为市场源：
+在 CLI 会话里添加本仓库为市场源，再装插件：
 
 ```
 /plugin marketplace add elegant01/dify-canvas-marketplace
 /plugin install dify-canvas@dify-canvas-marketplace
 ```
 
-或直接用 CLI 一次性安装本地/Git 包：
+或用命令行一次到位：
 
 ```
-codebuddy plugin add elegant01/dify-canvas-marketplace
+codebuddy plugin marketplace add elegant01/dify-canvas-marketplace
+codebuddy plugin install dify-canvas@dify-canvas-marketplace
 ```
+
+本地调试可用目录形态直接装包（不经过市场）：
+
+```
+codebuddy plugin add <本仓库绝对路径>/plugins/dify-canvas
+```
+
+装完执行 `/reload-plugins`，或新开会话。
 
 ## 结构
 
 ```text
 dify-canvas-marketplace/
 ├── .codebuddy-plugin/marketplace.json
+├── LICENSE
 ├── README.md
 └── plugins/dify-canvas/
     ├── .codebuddy-plugin/plugin.json
